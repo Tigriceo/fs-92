@@ -1,0 +1,87 @@
+/* .blog>*{
+    margin: 20px 0;
+} */
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.test {
+  padding: 120px 0;
+}
+.blog p,
+.blog h1,
+.blog h2,
+.blog h3,
+.blog h4,
+.blog h5,
+.blog h6 {
+  margin: 20px 0;
+}
+.blog > *:first-child {
+  margin-top: 0;
+}
+
+ul > li {
+  color: red;
+}
+
+.input-check + span {
+  color: blueviolet;
+}
+
+#test-id {
+  font-size: 38px;
+}
+.test-id {
+  font-size: 38px;
+}
+
+p.test-id {
+  font-size: 14px;
+}
+
+p.test-id.test-id--mode {
+  font-size: 14px;
+}
+
+body .test .test-id {
+  font-size: 14px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.mark-img {
+  object-position: center;
+  object-fit: contain;
+}
+
+.mark {
+  width: 264px;
+  height: 260px;
+  background: url("../images/mark.jpg") no-repeat;
+  
+  background-position: center;
+  background-size: contain;
+}
